@@ -77,8 +77,7 @@ def guardar_datos(df, ruta_guardado):
 
 def main():
     """
-    Esta es la función principal que va a orquestar todo el proceso,
-    llamando a las otras funciones en orden. Como un director de orquesta.
+    funcion principal que llamara a las demas funciones para realizar el proceso.
     """
     ruta_datos_crudos = "../data/raw/internal-link.csv"
     ruta_datos_procesados = "../data/processed/final_model_data.csv"
